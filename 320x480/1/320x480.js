@@ -1094,17 +1094,17 @@ lib.properties = {
 	color: "#FFFFFF",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/bg_1.jpg?1525960130175", id:"bg_1"},
-		{src:"images/bg_ending.jpg?1525960130175", id:"bg_ending"},
-		{src:"images/hand.jpg?1525960130175", id:"hand"},
-		{src:"images/katespade.jpg?1525960130175", id:"katespade"},
-		{src:"images/logo.jpg?1525960130175", id:"logo"},
-		{src:"images/phone.jpg?1525960130175", id:"phone"},
-		{src:"images/phone_ending.jpg?1525960130175", id:"phone_ending"},
-		{src:"images/slowmo_1.jpg?1525960130175", id:"slowmo_1"},
-		{src:"images/slowmo_2.jpg?1525960130175", id:"slowmo_2"},
-		{src:"images/slowmo_3.jpg?1525960130175", id:"slowmo_3"},
-		{src:"images/slowmo_4.jpg?1525960130175", id:"slowmo_4"}
+		{src:"images/bg_1.jpg?1525960666528", id:"bg_1"},
+		{src:"images/bg_ending.jpg?1525960666528", id:"bg_ending"},
+		{src:"images/hand.jpg?1525960666528", id:"hand"},
+		{src:"images/katespade.jpg?1525960666528", id:"katespade"},
+		{src:"images/logo.jpg?1525960666528", id:"logo"},
+		{src:"images/phone.jpg?1525960666528", id:"phone"},
+		{src:"images/phone_ending.jpg?1525960666528", id:"phone_ending"},
+		{src:"images/slowmo_1.jpg?1525960666528", id:"slowmo_1"},
+		{src:"images/slowmo_2.jpg?1525960666528", id:"slowmo_2"},
+		{src:"images/slowmo_3.jpg?1525960666528", id:"slowmo_3"},
+		{src:"images/slowmo_4.jpg?1525960666528", id:"slowmo_4"}
 	],
 	preloads: []
 };
