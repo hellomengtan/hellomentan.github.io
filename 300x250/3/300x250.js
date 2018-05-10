@@ -1335,12 +1335,12 @@ lib.properties = {
 	color: "#FFFFFF",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/bg.jpg?1525882020449", id:"bg"},
-		{src:"images/bg_clear.jpg?1525882020449", id:"bg_clear"},
-		{src:"images/katespade.jpg?1525882020449", id:"katespade"},
-		{src:"images/phone.jpg?1525882020449", id:"phone"},
-		{src:"images/phone_clear_pic.jpg?1525882020449", id:"phone_clear_pic"},
-		{src:"images/phone_ending.jpg?1525882020449", id:"phone_ending"}
+		{src:"images/bg.jpg?1525885586904", id:"bg"},
+		{src:"images/bg_clear.jpg?1525885586904", id:"bg_clear"},
+		{src:"images/katespade.jpg?1525885586904", id:"katespade"},
+		{src:"images/phone.jpg?1525885586904", id:"phone"},
+		{src:"images/phone_clear_pic.jpg?1525885586904", id:"phone_clear_pic"},
+		{src:"images/phone_ending.jpg?1525885586904", id:"phone_ending"}
 	],
 	preloads: []
 };

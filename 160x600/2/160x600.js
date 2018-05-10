@@ -966,7 +966,7 @@ if (loop == null) { loop = false; }	this.initialize(mode,startPosition,loop,{});
 	this.instance_8.parent = this;
 	this.instance_8.setTransform(80,0,1,1,0,0,0,80,0);
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_8).wait(1).to({regY:27.5,y:27.5},0).wait(154).to({scaleY:1.74,y:47.9},0).wait(1).to({scaleY:2.49,y:68.4},0).wait(1).to({scaleY:3.23,y:88.8},0).wait(1).to({scaleY:3.97,y:109.2},0).wait(1).to({scaleY:4.71,y:129.6},0).wait(1).to({scaleY:5.46,y:150},0).wait(79));
+	this.timeline.addTween(cjs.Tween.get(this.instance_8).wait(1).to({regY:27.5,y:27.5},0).wait(154).to({scaleY:1.75,y:48},0).wait(1).to({scaleY:2.49,y:68.5},0).wait(1).to({scaleY:3.24,y:89},0).wait(1).to({scaleY:3.98,y:109.5},0).wait(1).to({scaleY:4.73,y:130},0).wait(1).to({scaleY:5.47,y:150.5},0).wait(79));
 
 	// footer
 	this.instance_9 = new lib.footer();
@@ -988,12 +988,12 @@ if (loop == null) { loop = false; }	this.initialize(mode,startPosition,loop,{});
 	// text_2
 	this.instance_11 = new lib.text_2();
 	this.instance_11.parent = this;
-	this.instance_11.setTransform(21.1,334.3,1.033,1.033,0,0,0,43.2,12.9);
+	this.instance_11.setTransform(21.1,334.3,1.033,1.033,0,0,0,43.1,12.9);
 	this.instance_11.alpha = 0;
 	this.instance_11.shadow = new cjs.Shadow("rgba(0,0,0,1)",0,0,10);
 	this.instance_11._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_11).wait(59).to({_off:false},0).wait(1).to({regX:45.4,x:31.7,alpha:0.2},0).wait(1).to({x:39.9,alpha:0.4},0).wait(1).to({x:48.2,alpha:0.6},0).wait(1).to({x:56.4,alpha:0.8},0).wait(1).to({x:64.7,alpha:1},0).wait(1).to({x:65.3},0).wait(1).to({x:65.9},0).wait(1).to({x:66.6},0).wait(1).to({x:67.2},0).wait(1).to({x:67.8},0).wait(1).to({x:68.4},0).wait(1).to({x:69.1},0).wait(1).to({x:69.7},0).wait(1).to({x:70.3},0).wait(1).to({x:70.9},0).wait(1).to({x:71.5},0).wait(1).to({x:72.2},0).wait(1).to({x:72.8},0).wait(1).to({x:73.4},0).wait(1).to({x:74},0).wait(1).to({x:74.6},0).wait(1).to({x:75.3},0).wait(1).to({x:75.9},0).wait(1).to({x:76.5},0).wait(1).to({x:77.1},0).wait(1).to({x:77.8},0).wait(1).to({x:78.4},0).wait(1).to({x:79},0).wait(1).to({x:79.6},0).wait(1).to({x:80.2},0).wait(1).to({x:80.9},0).wait(1).to({x:81.5},0).wait(1).to({x:82.1},0).wait(1).to({x:82.7},0).wait(1).to({x:83.3},0).wait(1).to({scaleX:1.11,scaleY:1.11,x:83.5,alpha:0.8},0).wait(1).to({scaleX:1.18,scaleY:1.18,x:83.7,alpha:0.6},0).wait(1).to({scaleX:1.25,scaleY:1.25,x:83.8,alpha:0.4},0).wait(1).to({scaleX:1.32,scaleY:1.32,x:84,alpha:0.2},0).wait(1).to({scaleX:1.4,scaleY:1.4,x:84.1,alpha:0},0).to({_off:true},1).wait(139));
+	this.timeline.addTween(cjs.Tween.get(this.instance_11).wait(59).to({_off:false},0).wait(1).to({regX:45.4,x:31.8,alpha:0.2},0).wait(1).to({x:40,alpha:0.4},0).wait(1).to({x:48.3,alpha:0.6},0).wait(1).to({x:56.5,alpha:0.8},0).wait(1).to({x:64.8,alpha:1},0).wait(1).to({x:65.4},0).wait(1).to({x:66},0).wait(1).to({x:66.7},0).wait(1).to({x:67.3},0).wait(1).to({x:67.9},0).wait(1).to({x:68.5},0).wait(1).to({x:69.2},0).wait(1).to({x:69.8},0).wait(1).to({x:70.4},0).wait(1).to({x:71},0).wait(1).to({x:71.6},0).wait(1).to({x:72.3},0).wait(1).to({x:72.9},0).wait(1).to({x:73.5},0).wait(1).to({x:74.1},0).wait(1).to({x:74.7},0).wait(1).to({x:75.4},0).wait(1).to({x:76},0).wait(1).to({x:76.6},0).wait(1).to({x:77.2},0).wait(1).to({x:77.9},0).wait(1).to({x:78.5},0).wait(1).to({x:79.1},0).wait(1).to({x:79.7},0).wait(1).to({x:80.3},0).wait(1).to({x:81},0).wait(1).to({x:81.6},0).wait(1).to({x:82.2},0).wait(1).to({x:82.8},0).wait(1).to({x:83.4},0).wait(1).to({scaleX:1.11,scaleY:1.11,x:83.6,alpha:0.8},0).wait(1).to({scaleX:1.18,scaleY:1.18,x:83.8,alpha:0.6},0).wait(1).to({scaleX:1.25,scaleY:1.25,x:83.9,alpha:0.4},0).wait(1).to({scaleX:1.32,scaleY:1.32,x:84.1,alpha:0.2},0).wait(1).to({scaleX:1.4,scaleY:1.4,x:84.3,alpha:0},0).to({_off:true},1).wait(139));
 
 	// light
 	this.instance_12 = new lib.light();
@@ -1078,7 +1078,7 @@ if (loop == null) { loop = false; }	this.initialize(mode,startPosition,loop,{});
 	this.instance_20.alpha = 0;
 	this.instance_20._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_20).wait(98).to({_off:false},0).wait(1).to({alpha:0.2},0).wait(1).to({alpha:0.4},0).wait(1).to({alpha:0.6},0).wait(1).to({alpha:0.8},0).wait(1).to({alpha:1},0).wait(1).to({scaleX:1,scaleY:1},0).wait(1).to({scaleX:1.01,scaleY:1.01,x:80.1},0).wait(1).to({scaleX:1.02,scaleY:1.02,x:80},0).wait(1).to({scaleX:1.02,scaleY:1.02},0).wait(1).to({scaleX:1.03,scaleY:1.03,x:80.1},0).wait(1).to({scaleX:1.03,scaleY:1.03,x:80},0).wait(1).to({scaleX:1.04,scaleY:1.04},0).wait(1).to({scaleX:1.04,scaleY:1.04,x:80.1},0).wait(1).to({scaleX:1.05,scaleY:1.05,x:80},0).wait(1).to({scaleX:1.05,scaleY:1.05,x:80.1},0).wait(1).to({scaleX:1.06,scaleY:1.06},0).wait(1).to({scaleX:1.06,scaleY:1.06,x:80},0).wait(1).to({scaleX:1.07,scaleY:1.07,x:80.1},0).wait(1).to({scaleX:1.07,scaleY:1.07,x:80},0).wait(1).to({scaleX:1.08,scaleY:1.08},0).wait(1).to({scaleX:1.08,scaleY:1.08,x:80.1},0).wait(1).to({scaleX:1.09,scaleY:1.09,x:80},0).wait(1).to({scaleX:1.09,scaleY:1.09},0).wait(1).to({scaleX:1.1,scaleY:1.1,x:80.1},0).wait(1).to({scaleX:1.1,scaleY:1.1,x:80},0).wait(1).to({scaleX:1.11,scaleY:1.11,x:80.1},0).wait(1).to({scaleX:1.12,scaleY:1.12},0).wait(1).to({scaleX:1.12,scaleY:1.12,x:80},0).wait(1).to({scaleX:1.13,scaleY:1.13,x:80.1},0).wait(1).to({scaleX:1.13,scaleY:1.13},0).wait(1).to({scaleX:1.14,scaleY:1.14,x:80},0).wait(1).to({scaleX:1.14,scaleY:1.14,x:80.1},0).wait(1).to({scaleX:1.15,scaleY:1.15,x:80},0).wait(1).to({scaleX:1.15,scaleY:1.15},0).wait(1).to({scaleX:1.16,scaleY:1.16,x:80.1},0).wait(1).to({scaleX:1.16,scaleY:1.16,x:80},0).wait(1).to({scaleX:1.17,scaleY:1.17},0).wait(1).to({scaleX:1.17,scaleY:1.17,x:80.1},0).wait(1).to({scaleX:1.18,scaleY:1.18,x:80},0).wait(1).to({scaleX:1.18,scaleY:1.18,x:80.1},0).wait(1).to({scaleX:1.19,scaleY:1.19},0).wait(1).to({scaleX:1.19,scaleY:1.19,x:80},0).wait(1).to({scaleX:1.2,scaleY:1.2,x:80.1},0).wait(1).to({scaleX:1.2,scaleY:1.2,x:80},0).wait(1).to({scaleX:1.21,scaleY:1.21},0).wait(1).to({scaleX:1.21,scaleY:1.21,x:80.1},0).wait(1).to({scaleX:1.22,scaleY:1.22,x:80},0).wait(1).to({scaleX:1.23,scaleY:1.23,y:300.1},0).wait(1).to({scaleX:1.23,scaleY:1.23,x:80.1,y:300},0).wait(1).to({scaleX:1.24,scaleY:1.24,x:80},0).wait(1).to({scaleX:1.24,scaleY:1.24,x:80.1,y:300.1},0).wait(1).to({scaleX:1.25,scaleY:1.25,y:300},0).wait(1).to({scaleX:1.25,scaleY:1.25,x:80,y:300.1},0).wait(1).to({scaleX:1.26,scaleY:1.26,x:80.1,y:300},0).wait(1).to({scaleX:1.26,scaleY:1.26},0).wait(86));
+	this.timeline.addTween(cjs.Tween.get(this.instance_20).wait(98).to({_off:false},0).wait(1).to({alpha:0.2},0).wait(1).to({alpha:0.4},0).wait(1).to({alpha:0.6},0).wait(1).to({alpha:0.8},0).wait(1).to({alpha:1},0).wait(1).to({scaleX:1,scaleY:1},0).wait(1).to({scaleX:1.01,scaleY:1.01,x:80.1},0).wait(1).to({scaleX:1.02,scaleY:1.02,x:80},0).wait(1).to({scaleX:1.02,scaleY:1.02},0).wait(1).to({scaleX:1.03,scaleY:1.03,x:80.1},0).wait(1).to({scaleX:1.03,scaleY:1.03,x:80},0).wait(1).to({scaleX:1.04,scaleY:1.04},0).wait(1).to({scaleX:1.04,scaleY:1.04,x:80.1},0).wait(1).to({scaleX:1.05,scaleY:1.05,x:80},0).wait(1).to({scaleX:1.05,scaleY:1.05,x:80.1},0).wait(1).to({scaleX:1.06,scaleY:1.06},0).wait(1).to({scaleX:1.06,scaleY:1.06,x:80},0).wait(1).to({scaleX:1.07,scaleY:1.07,x:80.1},0).wait(1).to({scaleX:1.07,scaleY:1.07,x:80},0).wait(1).to({scaleX:1.08,scaleY:1.08},0).wait(1).to({scaleX:1.08,scaleY:1.08,x:80.1},0).wait(1).to({scaleX:1.09,scaleY:1.09,x:80},0).wait(1).to({scaleX:1.09,scaleY:1.09},0).wait(1).to({scaleX:1.1,scaleY:1.1,x:80.1},0).wait(1).to({scaleX:1.1,scaleY:1.1,x:80},0).wait(1).to({scaleX:1.11,scaleY:1.11,x:80.1},0).wait(1).to({scaleX:1.12,scaleY:1.12},0).wait(1).to({scaleX:1.12,scaleY:1.12,x:80},0).wait(1).to({scaleX:1.13,scaleY:1.13,x:80.1},0).wait(1).to({scaleX:1.13,scaleY:1.13},0).wait(1).to({scaleX:1.14,scaleY:1.14,x:80},0).wait(1).to({scaleX:1.14,scaleY:1.14,x:80.1},0).wait(1).to({scaleX:1.15,scaleY:1.15,x:80},0).wait(1).to({scaleX:1.15,scaleY:1.15},0).wait(1).to({scaleX:1.16,scaleY:1.16,x:80.1},0).wait(1).to({scaleX:1.16,scaleY:1.16,x:80},0).wait(1).to({scaleX:1.17,scaleY:1.17},0).wait(1).to({scaleX:1.17,scaleY:1.17,x:80.1},0).wait(1).to({scaleX:1.18,scaleY:1.18,x:80},0).wait(1).to({scaleX:1.18,scaleY:1.18,x:80.1},0).wait(1).to({scaleX:1.19,scaleY:1.19},0).wait(1).to({scaleX:1.19,scaleY:1.19,x:80},0).wait(1).to({scaleX:1.2,scaleY:1.2,x:80.1},0).wait(1).to({scaleX:1.2,scaleY:1.2,x:80},0).wait(1).to({scaleX:1.21,scaleY:1.21},0).wait(1).to({scaleX:1.21,scaleY:1.21,x:80.1},0).wait(1).to({scaleX:1.22,scaleY:1.22,x:80},0).wait(1).to({scaleX:1.23,scaleY:1.23,y:300.1},0).wait(1).to({scaleX:1.23,scaleY:1.23,x:80.1,y:300},0).wait(1).to({scaleX:1.24,scaleY:1.24,x:80},0).wait(1).to({scaleX:1.24,scaleY:1.24,x:80.1,y:300.1},0).wait(1).to({scaleX:1.25,scaleY:1.25,y:300},0).wait(1).to({scaleX:1.25,scaleY:1.25,x:80,y:300.1},0).wait(1).to({scaleX:1.26,scaleY:1.26,x:80.1,y:300},0).wait(1).to({scaleX:1.26,scaleY:1.26},0).wait(6).to({_off:true},1).wait(79));
 
 	// bg
 	this.instance_21 = new lib.bg();
@@ -1105,12 +1105,12 @@ lib.properties = {
 	color: "#FFFFFF",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/bg.jpg?1525895444255", id:"bg"},
-		{src:"images/bg_clear.jpg?1525895444255", id:"bg_clear"},
-		{src:"images/katespade.jpg?1525895444255", id:"katespade"},
-		{src:"images/phone.jpg?1525895444255", id:"phone"},
-		{src:"images/phone_ending.jpg?1525895444255", id:"phone_ending"},
-		{src:"images/pic_clear.jpg?1525895444255", id:"pic_clear"}
+		{src:"images/bg.jpg?1525954504564", id:"bg"},
+		{src:"images/bg_clear.jpg?1525954504564", id:"bg_clear"},
+		{src:"images/katespade.jpg?1525954504564", id:"katespade"},
+		{src:"images/phone.jpg?1525954504564", id:"phone"},
+		{src:"images/phone_ending.jpg?1525954504564", id:"phone_ending"},
+		{src:"images/pic_clear.jpg?1525954504564", id:"pic_clear"}
 	],
 	preloads: []
 };

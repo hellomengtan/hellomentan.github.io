@@ -42,7 +42,7 @@ p.nominalBounds = new cjs.Rectangle(0,0,574,1219);
 (lib.phone_ending = function() {
 	this.initialize(img.phone_ending);
 }).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,394,500);
+p.nominalBounds = new cjs.Rectangle(0,0,197,250);
 
 
 (lib.slowmo_1 = function() {
@@ -401,7 +401,7 @@ p.nominalBounds = new cjs.Rectangle(0,0,573,1215.8);
 	// Layer_1
 	this.instance = new lib.phone_ending();
 	this.instance.parent = this;
-	this.instance.setTransform(-5,-8,0.428,0.428);
+	this.instance.setTransform(-5,-8,0.857,0.857);
 
 	var maskedShapeInstanceList = [this.instance];
 
@@ -762,7 +762,7 @@ p.nominalBounds = new cjs.Rectangle(0,0,573,1215.8);
 
 	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.shape_15},{t:this.shape_14},{t:this.shape_13},{t:this.shape_12},{t:this.shape_11},{t:this.shape_10},{t:this.shape_9},{t:this.shape_8},{t:this.shape_7},{t:this.shape_6},{t:this.shape_5},{t:this.shape_4},{t:this.shape_3},{t:this.shape_2},{t:this.shape_1},{t:this.shape}]}).wait(1));
 
-}).prototype = getMCSymbolPrototype(lib.ending_cut_text_1, new cjs.Rectangle(-64.8,38.7,100.9,52.6), null);
+}).prototype = getMCSymbolPrototype(lib.ending_cut_text_1, new cjs.Rectangle(-64.8,38.7,100.8,52.6), null);
 
 
 (lib.cta_bg = function(mode,startPosition,loop) {
@@ -1036,7 +1036,7 @@ if (loop == null) { loop = false; }	this.initialize(mode,startPosition,loop,{});
 	this.instance_8.parent = this;
 	this.instance_8.setTransform(80,0,1,1,0,0,0,80,0);
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_8).wait(1).to({regY:27.5,y:27.5},0).wait(180).to({scaleY:1.74,y:47.9},0).wait(1).to({scaleY:2.49,y:68.4},0).wait(1).to({scaleY:3.23,y:88.8},0).wait(1).to({scaleY:3.97,y:109.2},0).wait(1).to({scaleY:4.71,y:129.6},0).wait(1).to({scaleY:5.46,y:150},0).wait(53));
+	this.timeline.addTween(cjs.Tween.get(this.instance_8).wait(1).to({regY:27.5,y:27.5},0).wait(180).to({scaleY:1.75,y:48},0).wait(1).to({scaleY:2.49,y:68.5},0).wait(1).to({scaleY:3.24,y:89},0).wait(1).to({scaleY:3.98,y:109.5},0).wait(1).to({scaleY:4.73,y:130},0).wait(1).to({scaleY:5.47,y:150.5},0).wait(53));
 
 	// footer
 	this.instance_9 = new lib.footer();
@@ -1174,16 +1174,16 @@ lib.properties = {
 	color: "#FFFFFF",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/bg_1.jpg?1525873474927", id:"bg_1"},
-		{src:"images/bg_ending.jpg?1525873474927", id:"bg_ending"},
-		{src:"images/hand.jpg?1525873474927", id:"hand"},
-		{src:"images/katespade.jpg?1525873474927", id:"katespade"},
-		{src:"images/phone.jpg?1525873474927", id:"phone"},
-		{src:"images/phone_ending.jpg?1525873474927", id:"phone_ending"},
-		{src:"images/slowmo_1.jpg?1525873474927", id:"slowmo_1"},
-		{src:"images/slowmo_2.jpg?1525873474927", id:"slowmo_2"},
-		{src:"images/slowmo_3.jpg?1525873474927", id:"slowmo_3"},
-		{src:"images/slowmo_4.jpg?1525873474927", id:"slowmo_4"}
+		{src:"images/bg_1.jpg?1525957555805", id:"bg_1"},
+		{src:"images/bg_ending.jpg?1525957555805", id:"bg_ending"},
+		{src:"images/hand.jpg?1525957555805", id:"hand"},
+		{src:"images/katespade.jpg?1525957555805", id:"katespade"},
+		{src:"images/phone.jpg?1525957555805", id:"phone"},
+		{src:"images/phone_ending.jpg?1525957555805", id:"phone_ending"},
+		{src:"images/slowmo_1.jpg?1525957555805", id:"slowmo_1"},
+		{src:"images/slowmo_2.jpg?1525957555805", id:"slowmo_2"},
+		{src:"images/slowmo_3.jpg?1525957555805", id:"slowmo_3"},
+		{src:"images/slowmo_4.jpg?1525957555805", id:"slowmo_4"}
 	],
 	preloads: []
 };

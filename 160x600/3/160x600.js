@@ -948,7 +948,7 @@ if (loop == null) { loop = false; }	this.initialize(mode,startPosition,loop,{});
 	this.instance_8.parent = this;
 	this.instance_8.setTransform(80,0,1,1,0,0,0,80,0);
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_8).wait(1).to({regY:27.5,y:27.5},0).wait(165).to({scaleY:1.74,y:47.9},0).wait(1).to({scaleY:2.49,y:68.4},0).wait(1).to({scaleY:3.23,y:88.8},0).wait(1).to({scaleY:3.97,y:109.2},0).wait(1).to({scaleY:4.71,y:129.6},0).wait(1).to({scaleY:5.46,y:150},0).wait(50));
+	this.timeline.addTween(cjs.Tween.get(this.instance_8).wait(1).to({regY:27.5,y:27.5},0).wait(165).to({scaleY:1.75,y:48},0).wait(1).to({scaleY:2.49,y:68.5},0).wait(1).to({scaleY:3.24,y:89},0).wait(1).to({scaleY:3.98,y:109.5},0).wait(1).to({scaleY:4.73,y:130},0).wait(1).to({scaleY:5.47,y:150.5},0).wait(50));
 
 	// footer
 	this.instance_9 = new lib.footer();
@@ -1075,12 +1075,12 @@ if (loop == null) { loop = false; }	this.initialize(mode,startPosition,loop,{});
 	// text_3
 	this.instance_17 = new lib.text_3();
 	this.instance_17.parent = this;
-	this.instance_17.setTransform(77.5,304.2,0.856,0.84,0,0,0,112.9,13);
+	this.instance_17.setTransform(77.6,304.2,0.856,0.84,0,0,0,112.9,13.1);
 	this.instance_17.alpha = 0;
 	this.instance_17.shadow = new cjs.Shadow("rgba(0,0,0,1)",0,0,4);
 	this.instance_17._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_17).wait(137).to({_off:false},0).wait(1).to({regX:117.8,regY:36,scaleX:0.84,scaleY:0.82,x:81.7,y:323.1,alpha:0.167},0).wait(1).to({scaleX:0.82,scaleY:0.81,x:81.6,y:322.7,alpha:0.333},0).wait(1).to({scaleX:0.8,scaleY:0.79,x:81.5,y:322.3,alpha:0.5},0).wait(1).to({scaleX:0.79,scaleY:0.77,x:81.4,y:321.9,alpha:0.667},0).wait(1).to({scaleX:0.77,scaleY:0.75,x:81.3,y:321.5,alpha:0.833},0).wait(1).to({scaleX:0.75,scaleY:0.74,x:81.2,y:321.1,alpha:1},0).wait(32).to({alpha:0.8},0).wait(1).to({alpha:0.6},0).wait(1).to({alpha:0.4},0).wait(1).to({alpha:0.2},0).wait(1).to({alpha:0},0).to({_off:true},1).wait(41));
+	this.timeline.addTween(cjs.Tween.get(this.instance_17).wait(137).to({_off:false},0).wait(1).to({regX:117.8,regY:36,scaleX:0.84,scaleY:0.82,x:81.7,y:323,alpha:0.167},0).wait(1).to({scaleX:0.82,scaleY:0.81,x:81.6,y:322.6,alpha:0.333},0).wait(1).to({scaleX:0.8,scaleY:0.79,x:81.5,y:322.3,alpha:0.5},0).wait(1).to({scaleX:0.79,scaleY:0.77,x:81.4,y:321.8,alpha:0.667},0).wait(1).to({scaleX:0.77,scaleY:0.75,y:321.5,alpha:0.833},0).wait(1).to({scaleX:0.75,scaleY:0.74,x:81.3,y:321.1,alpha:1},0).wait(32).to({alpha:0.8},0).wait(1).to({alpha:0.6},0).wait(1).to({alpha:0.4},0).wait(1).to({alpha:0.2},0).wait(1).to({alpha:0},0).to({_off:true},1).wait(41));
 
 	// transition
 	this.instance_18 = new lib.transition();
@@ -1334,12 +1334,12 @@ lib.properties = {
 	color: "#FFFFFF",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/bg.jpg?1525895264904", id:"bg"},
-		{src:"images/bg_clear.jpg?1525895264904", id:"bg_clear"},
-		{src:"images/katespade.jpg?1525895264904", id:"katespade"},
-		{src:"images/phone.jpg?1525895264904", id:"phone"},
-		{src:"images/phone_clear_pic.jpg?1525895264904", id:"phone_clear_pic"},
-		{src:"images/phone_ending.jpg?1525895264904", id:"phone_ending"}
+		{src:"images/bg.jpg?1525957602614", id:"bg"},
+		{src:"images/bg_clear.jpg?1525957602614", id:"bg_clear"},
+		{src:"images/katespade.jpg?1525957602614", id:"katespade"},
+		{src:"images/phone.jpg?1525957602614", id:"phone"},
+		{src:"images/phone_clear_pic.jpg?1525957602614", id:"phone_clear_pic"},
+		{src:"images/phone_ending.jpg?1525957602614", id:"phone_ending"}
 	],
 	preloads: []
 };

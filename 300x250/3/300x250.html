@@ -14,7 +14,10 @@
 <title>300x250</title>
 <!-- write your code here -->
 <script src="https://code.createjs.com/createjs-2015.11.26.min.js"></script>
-<script src="300x250.js?1525882020458"></script>
+<script src="300x250.js?1525885586914"></script>
+<script type="text/Javascript"> 
+	var clickTag = "http://www.samsung.com/tw/campaign/galaxy-s9-promotion/?cid=TW_20180416_IM_SMART_GS9_LC_R_DIS_DSP_SPF_01_PIC_NA_NA_BUY-NA-NA-UP-MO-GEN-160X600_PROGRAMMATICDISPLAY-UPGRADERS-S-W3_NA_NA_NA_NA_STAR-LAUNCH#page6";
+</script>
 <script>
 var canvas, stage, exportRoot, anim_container, dom_overlay_container, fnStartAnimation;
 function init() {
@@ -95,7 +98,9 @@ function handleComplete(evt,comp) {
 </head>
 <body onload="init();" style="margin:0px;">
 	<div id="animation_container" style="background-color:rgba(255, 255, 255, 1.00); width:300px; height:250px">
-		<canvas id="canvas" width="300" height="250" style="position: absolute; display: block; background-color:rgba(255, 255, 255, 1.00);"></canvas>
+		<a href="javascript:window.open(window.clickTag)">
+			<canvas id="canvas" width="300" height="250" style="position: absolute; display: block; background-color:rgba(255, 255, 255, 1.00);"></canvas>
+		</a>
 		<div id="dom_overlay_container" style="pointer-events:none; overflow:hidden; width:300px; height:250px; position: absolute; left: 0px; top: 0px; display: block;">
 		</div>
 	</div>
