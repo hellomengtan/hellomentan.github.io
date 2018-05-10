@@ -911,10 +911,10 @@ if (loop == null) { loop = false; }	this.initialize(mode,startPosition,loop,{});
 	// circle
 	this.instance_2 = new lib.circle();
 	this.instance_2.parent = this;
-	this.instance_2.setTransform(80.9,234,0.124,0.124,0,0,0,73.3,72.1);
+	this.instance_2.setTransform(80.9,234,0.124,0.124,0,0,0,72.9,72.1);
 	this.instance_2._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_2).wait(162).to({_off:false},0).wait(1).to({regX:73.2,regY:73.2,scaleX:0.32,scaleY:0.32,x:80.8,y:234.3},0).wait(1).to({scaleX:0.52,scaleY:0.52,y:234.6},0).wait(1).to({scaleX:0.72,scaleY:0.72,y:234.8},0).wait(1).to({scaleX:0.92,scaleY:0.92,x:80.7,y:235},0).wait(73));
+	this.timeline.addTween(cjs.Tween.get(this.instance_2).wait(162).to({_off:false},0).wait(1).to({regX:73.2,regY:73.2,scaleX:0.32,scaleY:0.32,y:234.3},0).wait(1).to({scaleX:0.52,scaleY:0.52,x:81,y:234.6},0).wait(1).to({scaleX:0.72,scaleY:0.72,x:81.1,y:234.8},0).wait(1).to({scaleX:0.92,scaleY:0.92,y:235},0).wait(73));
 
 	// title
 	this.instance_3 = new lib.title();
@@ -988,12 +988,12 @@ if (loop == null) { loop = false; }	this.initialize(mode,startPosition,loop,{});
 	// text_2
 	this.instance_11 = new lib.text_2();
 	this.instance_11.parent = this;
-	this.instance_11.setTransform(21.1,334.3,1.033,1.033,0,0,0,43.1,12.9);
+	this.instance_11.setTransform(21.1,334.3,1.033,1.033,0,0,0,43,12.9);
 	this.instance_11.alpha = 0;
 	this.instance_11.shadow = new cjs.Shadow("rgba(0,0,0,1)",0,0,10);
 	this.instance_11._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_11).wait(59).to({_off:false},0).wait(1).to({regX:45.4,x:31.8,alpha:0.2},0).wait(1).to({x:40,alpha:0.4},0).wait(1).to({x:48.3,alpha:0.6},0).wait(1).to({x:56.5,alpha:0.8},0).wait(1).to({x:64.8,alpha:1},0).wait(1).to({x:65.4},0).wait(1).to({x:66},0).wait(1).to({x:66.7},0).wait(1).to({x:67.3},0).wait(1).to({x:67.9},0).wait(1).to({x:68.5},0).wait(1).to({x:69.2},0).wait(1).to({x:69.8},0).wait(1).to({x:70.4},0).wait(1).to({x:71},0).wait(1).to({x:71.6},0).wait(1).to({x:72.3},0).wait(1).to({x:72.9},0).wait(1).to({x:73.5},0).wait(1).to({x:74.1},0).wait(1).to({x:74.7},0).wait(1).to({x:75.4},0).wait(1).to({x:76},0).wait(1).to({x:76.6},0).wait(1).to({x:77.2},0).wait(1).to({x:77.9},0).wait(1).to({x:78.5},0).wait(1).to({x:79.1},0).wait(1).to({x:79.7},0).wait(1).to({x:80.3},0).wait(1).to({x:81},0).wait(1).to({x:81.6},0).wait(1).to({x:82.2},0).wait(1).to({x:82.8},0).wait(1).to({x:83.4},0).wait(1).to({scaleX:1.11,scaleY:1.11,x:83.6,alpha:0.8},0).wait(1).to({scaleX:1.18,scaleY:1.18,x:83.8,alpha:0.6},0).wait(1).to({scaleX:1.25,scaleY:1.25,x:83.9,alpha:0.4},0).wait(1).to({scaleX:1.32,scaleY:1.32,x:84.1,alpha:0.2},0).wait(1).to({scaleX:1.4,scaleY:1.4,x:84.3,alpha:0},0).to({_off:true},1).wait(139));
+	this.timeline.addTween(cjs.Tween.get(this.instance_11).wait(59).to({_off:false},0).wait(1).to({regX:45.4,x:31.9,alpha:0.2},0).wait(1).to({x:40.1,alpha:0.4},0).wait(1).to({x:48.4,alpha:0.6},0).wait(1).to({x:56.6,alpha:0.8},0).wait(1).to({x:64.9,alpha:1},0).wait(1).to({x:65.5},0).wait(1).to({x:66.1},0).wait(1).to({x:66.8},0).wait(1).to({x:67.4},0).wait(1).to({x:68},0).wait(1).to({x:68.6},0).wait(1).to({x:69.3},0).wait(1).to({x:69.9},0).wait(1).to({x:70.5},0).wait(1).to({x:71.1},0).wait(1).to({x:71.7},0).wait(1).to({x:72.4},0).wait(1).to({x:73},0).wait(1).to({x:73.6},0).wait(1).to({x:74.2},0).wait(1).to({x:74.8},0).wait(1).to({x:75.5},0).wait(1).to({x:76.1},0).wait(1).to({x:76.7},0).wait(1).to({x:77.3},0).wait(1).to({x:78},0).wait(1).to({x:78.6},0).wait(1).to({x:79.2},0).wait(1).to({x:79.8},0).wait(1).to({x:80.4},0).wait(1).to({x:81.1},0).wait(1).to({x:81.7},0).wait(1).to({x:82.3},0).wait(1).to({x:82.9},0).wait(1).to({x:83.5},0).wait(1).to({scaleX:1.11,scaleY:1.11,x:83.7,alpha:0.8},0).wait(1).to({scaleX:1.18,scaleY:1.18,x:83.9,alpha:0.6},0).wait(1).to({scaleX:1.25,scaleY:1.25,x:84.1,alpha:0.4},0).wait(1).to({scaleX:1.32,scaleY:1.32,x:84.2,alpha:0.2},0).wait(1).to({scaleX:1.4,scaleY:1.4,x:84.4,alpha:0},0).to({_off:true},1).wait(139));
 
 	// light
 	this.instance_12 = new lib.light();
@@ -1105,12 +1105,12 @@ lib.properties = {
 	color: "#FFFFFF",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/bg.jpg?1525954504564", id:"bg"},
-		{src:"images/bg_clear.jpg?1525954504564", id:"bg_clear"},
-		{src:"images/katespade.jpg?1525954504564", id:"katespade"},
-		{src:"images/phone.jpg?1525954504564", id:"phone"},
-		{src:"images/phone_ending.jpg?1525954504564", id:"phone_ending"},
-		{src:"images/pic_clear.jpg?1525954504564", id:"pic_clear"}
+		{src:"images/bg.jpg?1525959076276", id:"bg"},
+		{src:"images/bg_clear.jpg?1525959076276", id:"bg_clear"},
+		{src:"images/katespade.jpg?1525959076276", id:"katespade"},
+		{src:"images/phone.jpg?1525959076276", id:"phone"},
+		{src:"images/phone_ending.jpg?1525959076276", id:"phone_ending"},
+		{src:"images/pic_clear.jpg?1525959076276", id:"pic_clear"}
 	],
 	preloads: []
 };

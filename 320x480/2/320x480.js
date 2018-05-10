@@ -918,10 +918,10 @@ if (loop == null) { loop = false; }	this.initialize(mode,startPosition,loop,{});
 	// circle
 	this.instance_2 = new lib.circle();
 	this.instance_2.parent = this;
-	this.instance_2.setTransform(161.8,188.3,0.161,0.161,0,0,0,73,73);
+	this.instance_2.setTransform(161.8,188.8,0.161,0.161,0,0,0,73,73);
 	this.instance_2._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_2).wait(161).to({_off:false},0).wait(1).to({regX:73.2,regY:73.2,scaleX:0.42,scaleY:0.42},0).wait(1).to({scaleX:0.68,scaleY:0.68,x:161.9,y:188.4},0).wait(1).to({scaleX:0.94,scaleY:0.94},0).wait(1).to({scaleX:1.2,scaleY:1.2,x:162,y:188.5},0).wait(74));
+	this.timeline.addTween(cjs.Tween.get(this.instance_2).wait(161).to({_off:false},0).wait(1).to({regX:73.2,regY:73.2,scaleX:0.42,scaleY:0.42},0).wait(1).to({scaleX:0.68,scaleY:0.68,x:161.9,y:188.9},0).wait(1).to({scaleX:0.94,scaleY:0.94},0).wait(1).to({scaleX:1.2,scaleY:1.2,x:162,y:189},0).wait(74));
 
 	// title
 	this.instance_3 = new lib.title();
@@ -1111,12 +1111,12 @@ lib.properties = {
 	color: "#FFFFFF",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/bg.jpg?1525958331526", id:"bg"},
-		{src:"images/bg_clear.jpg?1525958331526", id:"bg_clear"},
-		{src:"images/katespade.jpg?1525958331526", id:"katespade"},
-		{src:"images/phone.jpg?1525958331526", id:"phone"},
-		{src:"images/phone_ending.jpg?1525958331526", id:"phone_ending"},
-		{src:"images/pic_clear.jpg?1525958331526", id:"pic_clear"}
+		{src:"images/bg.jpg?1525959159395", id:"bg"},
+		{src:"images/bg_clear.jpg?1525959159395", id:"bg_clear"},
+		{src:"images/katespade.jpg?1525959159395", id:"katespade"},
+		{src:"images/phone.jpg?1525959159395", id:"phone"},
+		{src:"images/phone_ending.jpg?1525959159395", id:"phone_ending"},
+		{src:"images/pic_clear.jpg?1525959159395", id:"pic_clear"}
 	],
 	preloads: []
 };
