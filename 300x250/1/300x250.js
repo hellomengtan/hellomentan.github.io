@@ -871,7 +871,7 @@ p.nominalBounds = new cjs.Rectangle(0,0,132.3,37.5);
 
 // stage content:
 (lib._300x250 = function(mode,startPosition,loop) {
-	this.initialize(mode,startPosition,loop,{});
+if (loop == null) { loop = false; }	this.initialize(mode,startPosition,loop,{});
 
 	// logo
 	this.instance = new lib.logo();
@@ -1098,17 +1098,17 @@ lib.properties = {
 	color: "#FFFFFF",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/bg_1.jpg?1525961610783", id:"bg_1"},
-		{src:"images/bg_ending.jpg?1525961610783", id:"bg_ending"},
-		{src:"images/hand.jpg?1525961610783", id:"hand"},
-		{src:"images/katespade.jpg?1525961610783", id:"katespade"},
-		{src:"images/logo.jpg?1525961610783", id:"logo"},
-		{src:"images/phone.jpg?1525961610783", id:"phone"},
-		{src:"images/phone_ending.jpg?1525961610783", id:"phone_ending"},
-		{src:"images/slowmo_1.jpg?1525961610783", id:"slowmo_1"},
-		{src:"images/slowmo_2.jpg?1525961610783", id:"slowmo_2"},
-		{src:"images/slowmo_3.jpg?1525961610783", id:"slowmo_3"},
-		{src:"images/slowmo_4.jpg?1525961610783", id:"slowmo_4"}
+		{src:"images/bg_1.jpg?1525962379519", id:"bg_1"},
+		{src:"images/bg_ending.jpg?1525962379519", id:"bg_ending"},
+		{src:"images/hand.jpg?1525962379519", id:"hand"},
+		{src:"images/katespade.jpg?1525962379519", id:"katespade"},
+		{src:"images/logo.jpg?1525962379519", id:"logo"},
+		{src:"images/phone.jpg?1525962379519", id:"phone"},
+		{src:"images/phone_ending.jpg?1525962379519", id:"phone_ending"},
+		{src:"images/slowmo_1.jpg?1525962379519", id:"slowmo_1"},
+		{src:"images/slowmo_2.jpg?1525962379519", id:"slowmo_2"},
+		{src:"images/slowmo_3.jpg?1525962379519", id:"slowmo_3"},
+		{src:"images/slowmo_4.jpg?1525962379519", id:"slowmo_4"}
 	],
 	preloads: []
 };
